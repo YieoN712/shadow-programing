@@ -20,7 +20,7 @@ void Renderer::Initialize(int windowSizeX, int windowSizeY)
 	//Load shaders
 	m_SolidRectShader = CompileShaders("./Shaders/SolidRect.vs", "./Shaders/SolidRect.fs");
 	
-	//Create VBOs
+	//Create VBOs 1
 	CreateVertexBufferObjects();
 
 	if (m_SolidRectShader > 0 && m_VBORect > 0)
